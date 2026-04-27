@@ -36,6 +36,14 @@ FROM loan
 ORDER BY account_id ASC
 LIMIT 5;
 
+--## Query 6
+-- What is the loan `amount` of the lowest 5 `account_id`s in the `loan` table? Show the `account_id` and the corresponding `amount`
+
+SELECT account_id, amount
+FROM loan
+ORDER BY account_id ASC
+LIMIT 5;
+
 --##Query 7
 SELECT account_id
 FROM loan
